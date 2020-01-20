@@ -25,3 +25,40 @@ Your initial commit
 12. ~/git-basic-exercises$ git log  
 
 
+More Commits 
+
+1. ~/git-basic-exercises$ nano README.md
+   #"I am Amazing"
+   ctrl x 
+    press y
+    enter 
+    
+2. ~/git-basic-exercises$ cat README.md
+3. ~/git-basic-exercises$ git status
+4. ~/git-basic-exercises$ git add README.md
+   ~/git-basic-exercises$ git commit -m "second commit"
+5. ~/git-basic-exercises$ nano README.md
+   #"This is Fun "
+   ctrl x 
+    press y
+    enter 
+  ~/git-basic-exercises$ cat README.md
+  ~/git-basic-exercises$ git status
+  ~/git-basic-exercises$ git add README.md
+  ~/git-basic-exercises$ git status
+  ~/git-basic-exercises$ git commit -m"third commit"
+ 
+  
+
+Check this out 
+1.  ~/git-basic-exercises$ git log
+   "c88c8122c694e7cb98cb3479fff0ae4c6cfa4df8"
+2. press q
+3. ~/git-basic-exercises$ git checkout c88c8122c694e7cb98cb3479fff0ae4c6cfa4df8
+4. ~/git-basic-exercises$ cat README.md
+5. ~/git-basic-exercises$ git checkout master
+6. ~/git-basic-exercises$ cat README.md
+
+
+
+
