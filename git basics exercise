@@ -1,0 +1,27 @@
+Your initial commit
+
+
+1. ~$ mkdir git-basic-exercises
+2. ~$ cd ~/git-basic-exercises
+3. ~/git-basic-exercises$ ls -a
+4. ~/git-basic-exercises$ git init
+   ~/git-basic-exercises$ ls -a
+   # git files have been created
+5. ~/git-basic-exercises$ git status
+
+6. ~/git-basic-exercises$ touch README.md
+   ~/git-basic-exercises$ ls -a
+   ~/git-basic-exercises$ git status
+7. ~/git-basic-exercises$ git log
+8. ~/git-basic-exercises$ git add README.md
+9. ~/git-basic-exercises$ git status
+   # it added in the README.md file
+10. ~/git-basic-exercises$ git reset README.md
+    ~/git-basic-exercises$ git status
+11. ~/git-basic-exercises$ git add README.md
+    ~/git-basic-exercises$ git status
+    ~/git-basic-exercises$ git commit -m "initial commit"
+
+12. ~/git-basic-exercises$ git log  
+
+
