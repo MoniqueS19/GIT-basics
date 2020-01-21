@@ -133,7 +133,27 @@ Merging
     
     
  Pulling and Remotes
+ 1. ~/git-basic-exercises$ cd ../
+ 2. https://github.com/Umuzi-org/tech-department
+ 3/4~$ https://github.com/Umuzi-org/tech-department.git
+ https://github.com/Umuzi-org/tech-department.git
+ 5. ~$ git clone https://github.com/Umuzi-org/tech-department.git
+ 6.~$ cd tech-department
+ 7. ~/tech-department$ git branch
+    ~/tech-department$ git log
+ 8. ~/tech-department$ git branch -a
+ 9. ~/tech-department$ git checkout -b project/git-basic-exercises
+ 10. ~/tech-department$ git remote -v
  
+
+
+Multiple Repos
+1. ~/tech-department$ git log
+2. 
+
+ 
+ 
+
  
 
 
