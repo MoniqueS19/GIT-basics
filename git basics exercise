@@ -125,7 +125,14 @@ Merging
    #there are no differences everything is the same 
 
 
-   
+ Github 
+ 
+ 1/2. ~/git-basic-exercises$ git remote add github https://github.com/MoniqueS19/git-basic-exercises.git
+ 3. ~/git-basic-exercises$ git push github milkshake-flavours
+    ~/git-basic-exercises$ git push github history
+    
+    
+ 
 
 
 
