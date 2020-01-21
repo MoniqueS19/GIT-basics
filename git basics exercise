@@ -62,5 +62,78 @@ Check this out
 
 branching
 
+1. ~/git-basic-exercises$ git branch
+2. ~/git-basic-exercises$ git checkout -b milkshake-flavours
+3. ~/git-basic-exercises$ git branch
+4. # the * indicates which branch is currently being worked on/open
+   ~/git-basic-exercises$ git checkout master
+5. ~/git-basic-exercises$ git checkout milkshake-flavours
+   ~/git-basic-exercises$ nano milkshakes.md
+6. ~/git-basic-exercises$ git status
+   #the file has not been added and committed 
+7. ~/git-basic-exercises$ git add milkshakes.md
+   ~/git-basic-exercises$ git status
+   ~/git-basic-exercises$ git commit -m "added initialflavours"
+8. ~/git-basic-exercises$ git log
+9. ~/git-basic-exercises$ git checkout master
+   ~/git-basic-exercises$ git status
+   # nothing to comimit only shows the master 
+10. ~/git-basic-exercises$ git checkout -b history
+    ~/git-basic-exercises$ git log
+11. ~/git-basic-exercises$ history > history.txt
+    # it creates a history txt file that lists all of your history and stores them on a txt file
+12. ~/git-basic-exercises$ git add history.txt
+    ~/git-basic-exercises$ git status
+    ~/git-basic-exercises$ git commit -m "added history"
+    ~/git-basic-exercises$ git log
+13.~/git-basic-exercises$ git checkout milkshake-flavours
+   ~/git-basic-exercises$ git log
+14. ~/git-basic-exercises$ nano README.md
+    ~/git-basic-exercises$ git status
+    ~/git-basic-exercises$ git add README.md
+    ~/git-basic-exercises$ git commit -m "random readme changes"
+15. ~/git-basic-exercises$ git checkout history
+    ~/git-basic-exercises$ cat README.md
+    ~/git-basic-exercises$ cat README.md
+16. ~/git-basic-exercises$ rm README.md echo "booya" > README.md
+    # it Removed README file
+17. ~/git-basic-exercises$ git add README.md
+    ~/git-basic-exercises$ git commit -m "rewrote read"
+18. ~/git-basic-exercises$ git checkout master 
+
+
+
+Merging
+
+1. ~/git-basic-exercises$ git checkout master
+   /git-basic-exercises$ git merge milkshake-flavours
+2. ~/git-basic-exercises$ ls
+   ~/git-basic-exercises$ git log
+3. ~/git-basic-exercises$ git merge history
+4. ~/git-basic-exercises$  ls
+   ~/git-basic-exercises$ git log
+5. ~/git-basic-exercises$ git checkout history 
+   ~/git-basic-exercises$ git log
+   ~/git-basic-exercises$ git checkout milkshake-flavour
+   ~/git-basic-exercises$ git log
+
+1. ~/git-basic-exercises$ git checkout history
+   ~/git-basic-exercises$ git merge master
+   ~/git-basic-exercises$ git log
+2. ~/git-basic-exercises$ git checkout master 
+   ~/git-basic-exercises$ git log
+   #there are no differences everything is the same 
+
+
+   
+
+
+
+
+
+
+  
+   
+
 
 
