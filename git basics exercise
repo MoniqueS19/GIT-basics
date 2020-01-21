@@ -149,7 +149,49 @@ Merging
 
 Multiple Repos
 1. ~/tech-department$ git log
-2. 
+2. ~/tech-department$ cd ~/git-basic-exercises
+   ~/git-basic-exercises$ git log
+3. ~/git-basic-exercises$ cd ../
+   ~$ mkdir this-will-be-another-repo
+4. ~$ cd this-will-be-another-repo
+   ~/this-will-be-another-repo$ git init
+
+5. ~/this-will-be-another-repo$ touch README.md
+   ~/this-will-be-another-repo$ git add README.md
+   ~/this-will-be-another-repo$ git reset README.md
+   ~/this-will-be-another-repo$ git add README.md
+   ~/this-will-be-another-repo$ git commit -m "First Commit"  
+6. ~/this-will-be-another-repo$ cd ~/git-basic-exercises
+   ~/git-basic-exercises$ git log
+
+
+Gitignore 
+
+
+1. ~/git-basic-exercises$ touch ignore-me.db
+2. ~/git-basic-exercises$ git status
+3. ~/git-basic-exercises$ nano .gitignore
+ctrl x
+y
+enter
+5. ~/git-basic-exercises$ git status
+6. ~/git-basic-exercises$ mkdir large-directory-that-should-be-local-only
+7. ~/git-basic-exercises$ cd large-directory-that-should-be-local-only
+   ~/git-basic-exercises/large-directory-that-should-be-local-only$ nano readme.md
+8. ~/git-basic-exercises/large-directory-that-should-be-local-only$ cd ~/git-basic-exercises
+   ~/git-basic-exercises$ git status
+9.  ~/git-basic-exercises$ nano .gitignore 
+ctrl x
+y
+enter
+10. ~/git-basic-exercises$ git status
+
+ 
+
+
+
+
+
 
  
  
